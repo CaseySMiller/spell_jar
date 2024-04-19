@@ -1,0 +1,23 @@
+{
+  "name": "many2many_sequelize_demo",
+  "version": "1.0.0",
+  "description": "demo app to set up and seed a many to many sequelize association",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "author": "Casey Miller",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.38.1",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
